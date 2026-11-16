@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit config
+.streamlit/
+
+# Temporary data files (keep processed/raw seeds if tracked)
+*.tmp
+
+# Third-party review corpus; download or regenerate locally
+/data/raw/deceptive_opinion.csv
+/data/processed/cleaned_reviews.csv
